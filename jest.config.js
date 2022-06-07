@@ -1,6 +1,6 @@
 module.exports = {
   roots: ['<rootDir>/src'],
-  collectCoverage: ['<rootDir>/src/**/*.ts'],
+  collectCoverage: true,
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
   // qualquer texto que tiver ts no final sera convertido para js
